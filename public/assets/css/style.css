@@ -1,0 +1,16 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input::placeholder {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+/* Hilangkan icon bawaan validasi bootstrap */
+.form-control.is-valid,
+.form-control.is-invalid {
+    background-image: none !important;
+    padding-right: 0.75rem;
+    /* biar tidak terlalu lebar */
+}
